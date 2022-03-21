@@ -1,39 +1,88 @@
 html {
-    box-sizing: border-box;
-    line-height: 1.5;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "PT Serif";
+}
 
-  body {
-    background-color: #c9b5ab;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
-  h1, h2 {
-      font-family: "PT Sans";
-      font-weight: bold;
-      font-size: 1.5rem;
-      color: #3f1622;
-  }
+body {
+  background-color: #c9b5ab;
+}
 
-  header {
-      font-size: 1.125rem;
-      color: #8f2440;
-      font-weight: bold;
-  }
+h1, h2 {
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #3f1622;
+}
 
-  nav a {
-      text-decoration: none;
-  }
+header {
+  font-size: 1.125rem;
+  color: #8f2440;
+  font-family: "PT Sans";
+  font-weight: bold;
+}
 
-  a,
-  a:link {
-      color: #8f2440;
-  }
+nav a {
+  text-decoration: none;
+}
 
-  a:hover {
-  } 
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #8f2440;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3f1622;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+ol {
+  font-weight: normal;
+  list-style-type: lower-greek;
+}
+
+nav ol {
+  font-weight: normal;
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+dl {
+  list-style-type: circle;
+}
+
+dt {
+  font-weight: bold;
+}
+
+img {
+  width: 32rem;
+  height: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
