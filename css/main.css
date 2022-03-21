@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+    background-color: #c9b5ab;
+  }
+
+  h1, h2 {
+      font-family: "PT Sans";
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: #3f1622;
+  }
+
+  header {
+      font-size: 1.125rem;
+      color: #8f2440;
+      font-weight: bold;
+  }
+
+  nav a {
+      text-decoration: none;
+  }
+
+  a,
+  a:link {
+      color: #8f2440;
+  }
+
+  a:hover {
+  } 
